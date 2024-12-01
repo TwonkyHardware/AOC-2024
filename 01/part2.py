@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-import random
 
 #input_file = "./sample_input.txt"
 input_file = "./input_1.txt"
@@ -56,19 +55,13 @@ print(f"len(left_list) = {len(left_list)}")
 print(f"len(right_list) = {len(right_list)}")
 print('')
 
-# 2) Sort lists
-left_list.sort()
-right_list.sort()
 
-# 3) Form a multiplicity map k:v where k is each element in the left list and v
+# 2) Form a multiplicity map k:v where k is each element in the left list and v
 #    is the number of times it appears in the *left* list
 left_multiplicity = list_multiplicity(left_list)
 right_multiplicity = list_multiplicity(right_list)
 
-#print(f"left_multiplicity = {left_multiplicity}")
-#print(f"right_multiplicity = {right_multiplicity}")
-
-# 4) Construct the similarity score
+# 3) Construct the similarity score
 # The similarity score of the left list is the sum of each element of the left
 # list multiplied by that element's multiplicity in the *right* list.  Accounting
 # for repeat appearances of elements in the left list, the similarity score is

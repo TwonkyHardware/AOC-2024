@@ -1,0 +1,29 @@
+Initial target, values: 18158404487, [2, 3, 15, 7, 4, 72, 2, 61, 4, 6, 7, 4]
+  Possibilities of rank 11:
+    {'target': 18158404483, 'residuum': [2, 3, 15, 7, 4, 72, 2, 61, 4, 6, 7], 'partial_equation': ['+', 4]}
+  Possibilities of rank 10:
+    {'target': 18158404476, 'residuum': [2, 3, 15, 7, 4, 72, 2, 61, 4, 6], 'partial_equation': ['+', 7, '+', 4]}
+18158404476
+  Possibilities of rank 9:
+    {'target': 18158404470, 'residuum': [2, 3, 15, 7, 4, 72, 2, 61, 4], 'partial_equation': ['+', 6, '+', 7, '+', 4]}
+    {'target': 3026400746, 'residuum': [2, 3, 15, 7, 4, 72, 2, 61, 4], 'partial_equation': ['*', 6, '+', 7, '+', 4]}
+    {'target': 1, 'residuum': [2, 3, 15, 7, 4, 72, 2, 61, 4], 'partial_equation': ['||', 6, '+', 7, '+', 4]}
+  Possibilities of rank 8:
+    {'target': 18158404466, 'residuum': [2, 3, 15, 7, 4, 72, 2, 61], 'partial_equation': ['+', 4, '+', 6, '+', 7, '+', 4]}
+    {'target': 3026400742, 'residuum': [2, 3, 15, 7, 4, 72, 2, 61], 'partial_equation': ['+', 4, '*', 6, '+', 7, '+', 4]}
+    {'target': -3, 'residuum': [2, 3, 15, 7, 4, 72, 2, 61], 'partial_equation': ['+', 4, '||', 6, '+', 7, '+', 4]}
+  Possibilities of rank 7:
+    {'target': 18158404405, 'residuum': [2, 3, 15, 7, 4, 72, 2], 'partial_equation': ['+', 61, '+', 4, '+', 6, '+', 7, '+', 4]}
+    {'target': 3026400681, 'residuum': [2, 3, 15, 7, 4, 72, 2], 'partial_equation': ['+', 61, '+', 4, '*', 6, '+', 7, '+', 4]}
+    {'target': -64, 'residuum': [2, 3, 15, 7, 4, 72, 2], 'partial_equation': ['+', 61, '+', 4, '||', 6, '+', 7, '+', 4]}
+  Possibilities of rank 6:
+    {'target': 18158404403, 'residuum': [2, 3, 15, 7, 4, 72], 'partial_equation': ['+', 2, '+', 61, '+', 4, '+', 6, '+', 7, '+', 4]}
+    {'target': 3026400679, 'residuum': [2, 3, 15, 7, 4, 72], 'partial_equation': ['+', 2, '+', 61, '+', 4, '*', 6, '+', 7, '+', 4]}
+    {'target': -66, 'residuum': [2, 3, 15, 7, 4, 72], 'partial_equation': ['+', 2, '+', 61, '+', 4, '||', 6, '+', 7, '+', 4]}
+    {'target': -32, 'residuum': [2, 3, 15, 7, 4, 72], 'partial_equation': ['*', 2, '+', 61, '+', 4, '||', 6, '+', 7, '+', 4]}
+  Possibilities of rank 5:
+    {'target': 18158404331, 'residuum': [2, 3, 15, 7, 4], 'partial_equation': ['+', 72, '+', 2, '+', 61, '+', 4, '+', 6, '+', 7, '+', 4]}
+    {'target': 3026400607, 'residuum': [2, 3, 15, 7, 4], 'partial_equation': ['+', 72, '+', 2, '+', 61, '+', 4, '*', 6, '+', 7, '+', 4]}
+    {'target': -138, 'residuum': [2, 3, 15, 7, 4], 'partial_equation': ['+', 72, '+', 2, '+', 61, '+', 4, '||', 6, '+', 7, '+', 4]}
+    {'target': -104, 'residuum': [2, 3, 15, 7, 4], 'partial_equation': ['+', 72, '*', 2, '+', 61, '+', 4, '||', 6, '+', 7, '+', 4]}
+-104
